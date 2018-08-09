@@ -1,0 +1,4 @@
+- name: Demonstrate invoking our brand new nginx custom ansible role
+  hosts: all
+  roles:
+    - nginx
